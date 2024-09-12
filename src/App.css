@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
+}
+
+.root
+{
+  position: absolute;
+  z-index: -100000000000;
+}
+
+
+.dn
+{
+  display:none
+}
+
+.dv
+{
+  display: block;
+}
+
+.bb
+{
+  border-bottom: solid;
+}
+
+.bc-gray
+{
+  border-color: rgb(168, 165, 165);
+}
+
+
+/* Add this to your global CSS file */
+.custom-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #f0f0f0; /* Change the background color */
+  color: #333; /* Change the text color */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.custom-select select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #a0a0a0;
+}
+
+.custom-select select option {
+  background-color: greenyellow; /* Change the dropdown background color */
+  
+  color: #333; /* Change the dropdown text color */
+}
+

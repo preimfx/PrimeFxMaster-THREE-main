@@ -1,0 +1,684 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+}
+
+.nav img {
+    width: 200px;
+    margin-left: 100px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    z-index: 2;
+}
+
+ul button {
+    border: none;
+    background-color: white;
+}
+
+ul .a {
+    text-decoration: none;
+    background-color: none;
+    color: rgba(1, 22, 7, 1);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+ul .a:hover {
+    color: rgba(0, 168, 89, 1);
+}
+
+.heart {
+    width: 50px;
+}
+
+.heart-div {
+    display: none;
+}
+
+.back-drop {
+    display: none;
+    position: absolute;
+    width: 95%;
+    height: 50%;
+    border: solid;
+    border-color: grey;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    z-index: 1;
+}
+
+/* Keyframes for flicker animation */
+@keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+    }
+    20%, 24%, 55% {
+        opacity: 1;
+    }
+    22% {
+        opacity: 0.5;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+    
+    .nav img {
+        margin-left: 0;
+        width: 150px;
+        justify-self: center;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links {
+        width: 200%;
+        background: linear-gradient(45deg, rgba(0, 168, 89, 1), rgb(122, 184, 155)); /* Gradient background */
+        border: none;
+        animation: flicker 10s infinite; /* Apply flicker animation */
+    }
+
+    .back-drop {
+        display: block;
+    }
+
+    .a {
+        background: none;
+    }
+
+    ul button {
+        background: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        padding: 5px;
+    }
+    
+    .nav img {
+        width: 120px;
+    }
+
+    ul {
+        gap: 15px;
+    }
+
+    ul .a {
+        font-size: 14px;
+        background: none;
+    }
+
+    .back-drop {
+        display: block;
+        position: absolute;
+        width: 95%;
+        height: 50%;
+        border: solid;
+        border-color: grey;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2vw;
+        z-index: 1;
+    }
+
+    .back-drop img {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .heart-div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .open {
+        display: none;
+    }
+
+    .main-nav {
+        display: flex;
+    }
+
+    .nav-links {
+        background: linear-gradient(45deg, rgba(0, 168, 89, 1), rgb(122, 184, 155));
+        animation: flicker 10s infinite;
+    }
+}
+
+.Hero {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    position: relative;
+    z-index: -2000;
+    margin-top: 100px;
+}
+
+.Home {
+    position: relative;
+    z-index: 100;
+}
+
+.Hero img {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    z-index: -1000;
+    opacity: 45%;
+}
+
+.Hero-Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.Hero-Content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.Hero h1 {
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 60px;
+}
+
+.Hero h1 span {
+    width: 100%;
+    text-align: center;
+}
+
+.Log-Sign-Con {
+    width: 100%;
+    height: 10rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.Log-Sign-Con button {
+    border: none;
+    height: 2rem !important;
+}
+
+.Log-Sign-Con a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.Sign:hover {
+    background-color: #011607;
+}
+
+.Login,
+.Sign {
+    border-radius: 10px;
+    background-color: rgba(0, 168, 89, 1);
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    height: auto;
+    /* width: 20rem; */
+    color: white;
+}
+
+.Sign h3 {
+    font-weight: 500;
+}
+
+.Hero2 {
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero2 a {
+    text-decoration: none;
+}
+
+.Hero2 h4:hover {
+    color: rgba(0, 168, 89, 1);
+}
+
+.Hero2 h4 {
+    font-weight: 500;
+    color: rgba(1, 22, 7, 1);
+}
+
+.Hero3 {
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    background-color: rgba(0, 168, 89, 1);
+}
+
+.Hero4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.Hero4img {
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: none;
+}
+
+.Hero4img img {
+    scale: 120%;
+}
+
+.Hero4-content {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+
+.R {
+    width: 100%;
+    height: auto;
+}
+
+.R h1 {
+    font-weight: 600;
+    color: rgba(1, 22, 7, 1);
+    padding-right: 3rem;
+    font-size: 50px;
+}
+
+.D {
+    width: 100%;
+    height: auto;
+}
+
+.D h4 {
+    font-weight: 400;
+    color: rgba(1, 22, 7, 1);
+    padding-right: 5rem;
+}
+
+.G {
+    border-radius: 10px;
+    background-color: rgba(0, 168, 89, 1);
+    width: 20rem;
+    height: 3rem;
+}
+
+.G:hover {
+    background-color: #011607;
+}
+
+.G a {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Hero4-content button {
+    border: none;
+}
+
+@media (max-width: 853px) {
+    .Hero-Container {
+        width: 100%;
+        height: 50vh;
+        padding: 0px;
+    }
+
+    .Hero-Container h1 {
+        padding-top: 15vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 6vw;
+        line-height: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Hero-Container h1 span {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Hero {
+        width: 100%;
+        height: 50vh;
+        padding: 0px;
+    }
+
+    .Hero img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .Log-Sign-Con {
+        gap: 20vw;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Log-Sign-Con button{
+
+        width: 30vw;
+        height: 7vh;
+        text-align: center;
+        font-size: 2vw;
+        padding: 10px;
+   
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        
+      
+      
+
+    }
+
+    
+    .Log-Sign-Con button  h3{
+        width: 30vw;
+        height: 7vh;
+        text-align: center;
+        font-size: 2vw;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    
+    }
+
+    .Hero2
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+
+    .Hero4img
+    {
+        display: none;
+        width: 1px;
+        height: 1px;
+    }
+
+    .R
+    {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+     
+       
+    }
+
+    .R h1
+    {
+        font-size: 5vw;
+        text-align: center;
+        width: 100vw;
+        padding-bottom: 10vw;
+      
+    }
+
+
+    .G{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20vw;
+        height: 10vw;
+        
+    }
+
+    .Hero4{ 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+      
+   }
+
+   .Hero4 h4{
+     font-size: 4vw;
+   }
+
+  
+
+   .Hero4-content
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Hero4-content button
+    {
+        width: 60%;
+        margin-left: -8vw;
+
+    }
+
+    .D{
+        padding: 0;
+    }
+
+    .D h4{
+        text-align: center;
+        padding-right: 5VW;
+        padding-bottom: 3VH;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .Hero-Container {
+        width: 100%;
+        height: 40vh;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .Hero-Container h1 {
+        padding-top: 15vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 6vw;
+        line-height: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Hero-Container h1 span {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Hero {
+        width: 100%;
+        height: 40vh;
+        padding: 0px;
+        overflow-y: hidden ;
+    }
+
+    .Hero img {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .Log-Sign-Con {
+        gap: 20vw;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Log-Sign-Con button{
+
+        width: 30vw;
+        height: 7vh;
+        text-align: center;
+        font-size: 2vw;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        
+      
+      
+
+    }
+
+    
+    .Log-Sign-Con button  h3{
+        width: 30vw;
+        height: 7vh;
+        text-align: center;
+        font-size: 2vw;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    
+    }
+
+
+    .Hero3
+    {
+        width:  100%;
+    }
+
+    .Hero4 img
+    {
+        display: none;
+    }
+
+    .Hero4{
+         display: flex;
+         flex-direction: row;   
+         align-items: center;
+         justify-content: center;
+         padding: 0px;
+         
+        
+    }
+
+    .G{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .Hero2
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+
+    .Hero4-content
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    
+
+
+    
+}

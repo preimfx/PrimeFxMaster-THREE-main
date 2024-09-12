@@ -1,0 +1,358 @@
+.About{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7.9rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.Market-Text{
+    font-size: 20px;
+}
+
+.History-Mission{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 2.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.History{
+    /* border: 1px solid black; */
+    width: 47%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Mission{
+    /* border: 1px solid black; */
+    width: 47%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Left{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    z-index: 500;   
+}
+
+.Right{
+    /* border: 1px solid black; */
+    width: 92.5%;
+    height: 20rem;
+    border-radius: 20px;
+    background-color: #eee;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    position: relative;
+    margin-top: -2.7rem;
+}
+
+.C-ONE{
+    border-radius: 50px;
+    background-color: rgba(0, 168, 89, 1);
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.Right h2{
+    color: rgba(1, 22, 7, 1);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.Right p{
+    color: rgba(1, 22, 7, 1);
+    font-size: 15px;
+}
+
+.C-ONE img{
+    width: 100%;
+    height: 100%;
+}
+
+.Meet-Right{
+    /* border: 1px solid black; */
+    width: 96%;
+    height: 25rem;
+    border-radius: 20px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: -2.7rem;
+    justify-content: space-between;
+}
+
+.Meet-Text{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.Meet-Text h2{
+    color: rgba(1, 22, 7, 1);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.Meet-Text p{
+    color: rgba(1, 22, 7, 1);
+    font-size: 15px;
+    margin-bottom: 3rem;
+}
+
+.Meet-Btn{
+    background-color: rgba(0, 168, 89, 1);
+    border-radius: 15px;
+    width: 60%;
+    height: 3rem;
+}
+
+.Meet-Btn a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.Meet-Btn:hover{
+    background-color: rgba(1, 22, 7, 1);
+}
+
+.MEET-IMAGE{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 57%;
+    height: 100%;
+    background-image: url(../assets/presentation-financial-project.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Meet-C-ONE{
+    border-radius: 50px;
+    background-color: rgba(0, 168, 89, 1);
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.Meet-C-ONE img{
+    width: 90%;
+    height: 80%;
+}
+
+
+
+
+
+@media (max-width: 853px) {
+    .About{
+   
+        padding-top: 4rem;
+        padding-left: 5vw;
+        padding-right: 5vw; 
+    }
+
+    .Market-Text h1{
+        font-size: 5vw !important; 
+        text-align: center !important;
+        width: 100vw !important;
+        padding-bottom: 10vw !important;
+    }
+
+
+    .History-Mission
+    {
+        gap: 10vh;
+    }
+
+    .Meet-Text p 
+    {
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+        width: 70vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .intersect
+    {
+     display: flex;
+     flex-direction: column;
+   
+  
+     margin-bottom: 25vw;
+    }
+
+    .Right p{
+        font-size: 15px;
+    }
+
+    .Right
+    {
+        margin: 5px;
+        padding: 1rem !important;
+    }
+
+    .History-Mission{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding-top: 2vw;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: normal;
+        justify-content: normal;
+    }
+
+    .Left{
+        /* border: 1px solid red; */
+        width: 90vw;
+        height: auto;
+        display: flex;
+        justify-content: right;
+        position: relative;
+        z-index: 500;   
+    }
+
+    .Right{
+        /* border: 1px solid black; */
+        width: 90vw;
+        height: 90vw;
+        border-radius: 20px;
+        background-color: #eee;
+        display: flex;
+        padding: 2vw;
+        flex-direction: column;
+        position: relative;
+        margin-top: -2.7rem;
+    }
+
+
+  
+
+    .Meet-Right{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 100vh;
+        border-radius: 20px;
+        background-color: #eee;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: -2.7rem;
+        justify-content: space-between;
+        padding: 2vw;
+    }
+
+
+    .MEET-IMAGE
+    {
+        width: 100%;
+    }
+
+    .Meet-Text h2
+    {
+        width: 80vw;
+        font-size: 6vw;
+
+    }
+
+    .Meet-Btn a{
+        font-size:3vw ;
+    }
+
+    .Meet-Btn
+    {
+              width: 50vw;
+              height: 10vw;
+              margin: 10px 1px ;
+            
+    }
+
+    
+.C-ONE{
+    border-radius: 50px;
+    background-color: rgba(0, 168, 89, 1);
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.Meet-Text{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+}
+
+
+}
+
+@media (max-width: 480px) {
+
+    .intersect
+    {
+     margin-bottom: 0vw;
+    }
+
+    
+    .History-Mission
+    {
+        
+        gap: 1vh;
+    }
+}
+
+    /* width: width; */

@@ -1,0 +1,921 @@
+.Howitworks-Hero{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    padding: 6rem;
+}
+
+.Howitworks-Hero-container{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.H-P{
+    border-bottom: 2px solid rgba(0, 168, 89, 1);
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    padding-right: 32rem;
+}
+
+.HOW{
+    color: rgba(1, 22, 7, 1);
+    font-weight: 500;
+}
+
+.PRIME{
+    color: rgba(1, 22, 7, 1);
+    font-weight: 400;
+}
+
+.Icon-Text{
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.Icon{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    background-position: left;
+    background-size: contain;
+    background-repeat: none;
+    margin-bottom: 0.556rem;
+}
+
+.Icon img{
+    scale: 70%;
+}
+
+.First-Text{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+
+}
+
+.First-Text h4{
+    font-weight: 400;
+    color: rgba(1, 22, 7, 1);
+}
+
+.first h4:hover{
+    color: rgba(0, 168, 89, 1);
+}
+
+
+.Market-Hero{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.Market-Text{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: auto;
+}
+
+.Market-Text h1{
+    color: rgba(1, 22, 7, 1);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.Market-Text h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Market-Text a{
+    text-decoration: none;
+    text-align: center;
+    color: rgba(1, 22, 7, 1);
+    font-weight: 300;
+}
+
+.Market-Text a:hover{
+    color: rgba(0, 168, 89, 1);
+}
+
+.Market-Text p{
+    text-align: center;
+    color: rgba(1, 22, 7, 1);
+    font-weight: 400;
+}
+
+.Market-Images{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Market-API-Holder{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    padding: 15px;
+}
+
+.Market-Img{
+    /* border: 1px solid black; */
+    width: 52%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 0.5rem;
+    padding-top: 4rem;
+}
+
+.We-Offer{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        margin-top: 4rem;
+}
+
+.We-Offer-Plans{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.Plan{
+    border: 2px solid rgba(1, 22, 7, 1) ;
+    border-radius: 20px;
+    width: 29%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.Plan h1{
+    color: rgba(1, 22, 7, 1) ;
+}
+
+.Plan h3{
+    font-weight: 400;
+    color: rgba(1, 22, 7, 1) ;
+}
+
+.Plan button{
+    border: 2px solid rgba(1, 22, 7, 1)  ;
+    width: 100%;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 600;
+    color: rgba(1, 22, 7, 1) ; 
+}
+
+.Plan:hover{
+    background-color: rgb(220, 245, 227);
+}
+
+.Why-Choose{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.Why-Content{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.Contents{
+    /* border: 1px solid red; */
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Con1{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Con1-Img{
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 50%;
+    background-size: contain;
+    background-position: top;
+    background-repeat: none;
+}
+
+.Con1-Img-Award{
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 60%;
+    background-size: contain;
+    background-position: top;
+    background-repeat: none;
+}
+
+.Con1-Img img{
+    width: 80%;
+    height: 80%;
+}
+
+.Con1-Img-Award img{
+    width: 80%;
+    height: 80%;
+}
+
+.Con1-Text{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 3rem;
+    padding-left: 1rem;
+}
+
+.Con1-Text h1{
+    font-weight: 500;
+    color: rgba(1, 22, 7, 1);
+}
+
+.Con1-Text h4{
+    font-weight: 400;
+    color: rgba(1, 22, 7, 1);
+}
+
+.What-our-clients{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.What-Boxes{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.box{
+    border: 2px solid #2E5B3A;
+    border-radius: 20px;
+    width: 23.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left  ;
+    padding: 1rem;
+}
+
+.star{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 3rem;
+    background-position: left;
+    background-size: contain;
+    display: flex;
+}
+
+.star-five{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 3rem;
+    background-position: left;
+    background-size: contain;
+    display: flex;
+}
+
+.star img{
+    width: 60%;
+    height: 70%;
+}
+
+.star-five img{
+    width: 80%;
+    height: 70%;
+}
+
+.box-text h4{
+    color: #011607;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.box-name{
+    color: #011607;
+    font-weight: 500;
+}
+
+.Footer{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 4rem;
+}
+
+.Footer-Container{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.Section-One{
+    border-bottom: 3px solid #00A859;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.A{
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 100%;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left  ;
+}
+
+.F-Logo{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 35%;
+    background-position: left;
+    background-repeat: none;
+    background-size: contain;
+}
+
+.F-Logo img{
+    width: 80%;
+    height: 90%;
+}
+
+.F-Text{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 40%;
+
+}
+
+.F-Text h4{
+    color: #011607;
+    font-weight: 400;
+}
+
+.Footer-Button{
+    border-radius: 10px;
+    background-color: #00A859;
+    height: 3rem;
+    width: 80%;
+    border: none;
+}
+
+.Footer-Button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.B{
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 100%;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left  ;
+}
+
+.B h3{
+    color: #011607;
+    font-weight: 500;
+}
+
+.B a{
+    text-decoration: none;
+    color: #011607;
+    font-weight: 400;
+}
+
+.B a:hover{
+    color: #00A859;
+}
+
+.Section-Two{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.Copy-right{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: auto;
+}
+
+.Copy-right h5{
+    color: #011607;
+    font-weight: 400;
+    font-size: 15px !important;
+}
+
+/* .Socials{
+    border: 1px solid black;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    background-position: center;
+    background-repeat: none;
+    background-size: contain;
+} */
+
+@media (max-width: 853px) {
+
+
+.Howitworks-Hero-container
+{
+    height: auto;
+    overflow-y: hidden;
+    
+}
+
+.Howitworks-Hero-container img
+{
+    width: 100px;
+}
+
+.H-P
+{
+    padding: 0;
+}
+
+.Howitworks-Hero
+{
+    padding: 4vw;
+    height: auto;
+    overflow-x: hidden;
+}
+.Market-Hero
+{
+    flex-direction: column;
+    padding: 4vw;
+    margin-top: 0vw;
+    height: auto;   
+}
+
+.Market-API-Holder
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+   
+}
+
+.Market-Images
+{
+    flex-direction: column;
+}
+
+.grph
+{
+       width: 10px;
+}
+
+
+.Market-Hero img
+{
+   width: 100%;
+   padding: 2vw;
+}
+
+.Market-Text h1
+
+{
+    font-size: 8vw;
+}
+
+.HOW
+{
+    width: 60vw;
+    padding: 10px 1px ;
+    font-size: 6vw;
+}
+
+.PRIME
+{
+    width: 60vw;
+    font-size: 4vw;
+}
+
+    .Icon-Text
+    {
+        flex-direction: column;
+    }
+
+    .Icon-Text img {
+        width: 15vw;
+        height: 15vw;
+    }
+
+
+    .Icon-Text h4
+    {
+        width: 60vw;
+        font-size: 4vw;
+        margin: 3vw;
+    }
+
+    .Market-Hero h4
+    {
+        font-size: 13px;
+        font-weight: 500 !important;
+        text-align: center; 
+    }
+
+    .Market-Img
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: whitesmoke;
+    }
+
+    .Market-Text h1 {
+
+        width: auto ;
+        text-align: center;
+        padding: 2vw;  
+        /* padding-right: 2.5rem;   */
+    }
+
+    .Market-Text
+    {
+        width: auto;
+    }
+
+
+    .We-Offer
+    {
+        margin-top: 0vw;
+        padding: 3vw;
+        height: auto;
+       
+    }
+
+    .weGatsComotAm{
+        display: none;
+    }
+
+
+    .Plan
+    {
+          width: 100%;
+          height: 60vh;
+        margin-bottom: 3vw;
+    }
+
+    .Plan h1
+    {
+        font-size: 5.5vw;
+        font-weight: 500;
+    }
+
+
+    
+    .Plan h3
+
+    {
+           font-size: 3.5vw;
+    }
+
+
+    .Plan button 
+    {
+        font-size: 5vw;
+
+        width: 50vw;
+        height: 13vw;
+    }
+
+    .We-Offer-Plans
+    {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        padding-left: 10vw ;
+        padding-right: 10vw;
+      
+
+        
+    }
+
+    .Why-Choose
+    {
+        margin-top: 0vw;
+        width: 100vw;
+        height: auto;
+        padding: 15px;
+      
+    }
+
+    .Why-Choose p
+    {
+        display: none;
+    }
+
+
+    .Why-Content
+    {
+    
+        flex-direction: column;
+        margin-top: 10vw;
+        height: auto;
+         
+
+    }
+    .Con1
+    {
+        width: 100vw;
+        margin: 1vw;
+        margin-top: 10vw;
+    }
+
+    .Con1 h1 
+    {
+        font-size: 6vw;
+    }
+
+    .Con1 h4{
+            font-size: 4vw;
+    }
+
+    .What-our-clients
+    {
+        margin-top: 0vw;
+        padding: 0px;
+        align-items: normal;
+        height: auto;
+
+        
+    }
+
+    .everthing
+    {
+        height: auto;
+        overflow-y: hidden;
+        
+    }
+
+    .What-our-clients h1
+    {
+        font-size: 6vw;
+        margin: 0;
+    }
+    .What-our-clients p
+    {
+        width: auto;
+        text-align: center;
+        font-size: 4vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    .What-Boxes
+    {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+        gap: 2vw;
+        height: auto;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .box-text h4
+    {
+      font-size: 4vw;
+    }
+
+     .B
+     {
+         display: none;
+     }
+
+     .Footer
+     {
+        width: 100%;
+        padding: 2vw;
+        background-color: aliceblue;
+        height: auto;
+
+     }
+
+     .Footer .Section-Two
+     {
+        width: auto;
+        height: auto;
+        
+        flex-direction: column;
+     }
+     .Copy-right
+     {
+        width: 100%;
+     }
+
+     .Socials
+     {
+        width: 100%;
+        
+     }
+
+
+.Footer-Container
+{
+    height: auto;
+}
+     .Footer .Section-Two h5
+     {
+        font-size: 5vw;
+        width: auto;
+        height: auto;
+     }
+
+     .A h4
+     {
+        font-size: 4vw;
+    
+     }
+
+
+     .A
+     {
+        width: 100%;
+    
+     }
+     .Section-One
+     {
+       
+     }
+
+    .star
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .star-five
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .box
+    {
+        width: 70vw;
+
+    }
+}
+
+/* 
+@media (max-width: 480px)  {
+
+
+    .Why-Choose
+    {
+        margin-top: 150vw;
+        width: 100vw;
+        height: 100vh;
+        padding: 6px;
+      
+    }
+
+    .Market-Hero
+{
+    flex-direction: column;
+     padding: 4vw;
+    margin-top: 120vw;
+ 
+    
+    
+}
+
+.Why-Content
+{
+      margin-top: 40vw;
+}
+
+
+}
+
+    
+@media (max-width: 540px)
+{
+
+} 
+    
+ */

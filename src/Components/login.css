@@ -1,0 +1,368 @@
+.Signup-Hero{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    padding: 2.5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color: #eee;
+    position: absolute;
+    z-index: 10000;
+}
+
+.Singup-Container{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-image: url(../assets/3173182.jpg);
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.Form-Container{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    width: 32%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.Logo-BackHome{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.Logo{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 100%;
+    padding-right: 2rem;
+}
+
+.Back{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 100%;
+    padding: 0.4rem;
+}
+
+.Back a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #011607;
+    align-content: center;
+}
+
+.Back a:hover{
+    color: rgba(0, 168, 89, 1) ;
+}
+.Login-to{
+    width: 100%;
+    height: 2rem;
+    /* border: 1px solid black; */
+    margin-bottom: 0.5rem;
+}
+
+.Login-to h3{
+    color: #011607;
+    font-weight: 600;
+}
+
+
+.contact-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-group i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Contact-Form {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: none ;
+  }
+
+.P{
+    font-size: 10px;
+    color: #011607;
+    margin-bottom: 0.5rem;
+  }
+
+  .P2{
+    font-size: 12px;
+    color: #011607;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+.Contact-Form input{
+    border: 2px solid rgba(0, 168, 89, 1);
+}
+
+.form-group{
+    margin-top: none;
+    margin-bottom: none;
+}
+
+.Btn,
+.BtnC{
+    margin-top: 0.6rem;
+    margin-bottom: none;
+    width: 100%;
+    background-color: rgba(0, 168, 89, 1);
+}
+
+.Btn:hover{
+    background-color: #011607;
+}
+
+.BtnC:hover{
+    background-color: #011607;
+}
+
+.OR{
+    /* border: 1px solid rgb(230, 15, 15); */
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.Dash{
+    border: 1px solid black;
+    width: 40%;
+    height: 0rem;
+}
+
+.OR{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.Btn2{
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgba(0, 168, 89, 1);
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.Btn2:hover{
+    background-color: #98f7b3;
+}
+
+.Policy{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+
+.Policy h5{
+    font-size: 10px;
+    color: black;
+    font-weight: 500;
+}
+
+.Policy a{
+    color: rgba(0, 168, 89, 1);
+    text-decoration: none;
+}
+
+.Policy a:hover{
+    color: #011607;
+}
+
+
+@media (max-width: 853px) {
+
+
+    .Signup-Hero{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 100vh;
+        padding: 5vw;
+        
+     
+    }
+
+    .Singup-Container .Logo
+    {
+           width: 50vw;
+    }
+
+
+    .Singup-Container{
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        background-image: url(../assets/3173182.jpg);
+        padding-left: 0rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .Form-Container
+    {
+        width: 85%;
+        padding: 10px;
+        opacity: 0.9;
+        height: auto;
+    }
+
+
+    .Logo-BackHome
+    {
+        width: auto;
+        height: auto;
+        gap: 2px;
+    }
+
+
+    .Back
+    {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Back Link{
+        font-size: smaller;
+    }
+
+    .Contact-Form
+    {
+        width: auto;
+        height: auto;
+        
+    }
+
+    .Login-to
+    {
+        height: auto;
+    }
+
+    .Login-to
+    {
+        font-size: 4vw;
+    }
+
+
+    .Contact-Form p
+    {
+        font-size: 4vw;
+    }
+
+    .Btn,
+    .BtnC
+    {
+        font-size: 4.5vw;
+    }
+
+    .BtnC{
+        color: white;
+        display: flex;
+        padding: 0,5rem;
+    }
+
+    .Btn2
+    {
+        width: auto;
+        height: auto;
+        font-size: 5vw;
+    }
+
+    .Form-Container h5, a 
+    {
+          font-size: 3.5vw;
+          display: block;
+    }
+
+    .Form-Container p
+    {
+         font-size: 3vw;
+         padding-bottom: 15px;
+         padding-bottom: 15px;
+    }
+
+    .Contact-Form input 
+    {
+        height: 10vw;
+        font-size: 4vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2vw;
+    }
+
+    .Back
+    {
+        width: auto;
+        height: auto;
+    }
+
+    .Back a {
+        font-size: 3vw;
+        
+    };
+    
+}
