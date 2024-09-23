@@ -29,6 +29,7 @@ import RandomUser from "./Components/RandomUser";
 import Footer from "./Components/Footer";
 import PrivateRoute from "./Components/PrivateRoutes"; // Import PrivateRoute
 
+
 function App() {
   return (
     <MyContextProvider>
@@ -40,7 +41,8 @@ function App() {
 function AppContent() {
   const { isNavbarVisible } = useMyContext();
   const [visible, setVisible] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const { isLoggedIn, setIsLoggedIn } = useMyContext();
+   
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
