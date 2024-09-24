@@ -73,7 +73,9 @@ export const MyContextProvider = ({ children }) => {
       submit,
       setsubmit, 
       setId2 ,
-      id2
+      id2,
+      isLoggedIn,
+      setIsLoggedIn
     }}>
       {children}
     </MyContext.Provider>
